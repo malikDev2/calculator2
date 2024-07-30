@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    background-color: rgb(206, 206, 206);
+    width: 420px; 
+    border-radius: 25%;
+    border: 3px solid rgb(255, 115, 0);
+    border-style: dashed;
+    padding: 10px;
+    text-align: center;
+}
+
+#solve {
+    text-align: center;
+    width: calc(100% - 40px);
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    margin: 5px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+#minus, #plus, #times, #divide {
+    background-color: rgb(255, 115, 0);
+}
+
+#minus:hover, #plus:hover, #times:hover, #divide:hover {
+    background-color: rgb(200, 90, 0);
+}
+
+#head {
+    color: rgb(255, 115, 0);
+    margin-bottom: 10px;
+}
+
+#answer {
+    color: black;
+    margin-top: 10px;
+}
